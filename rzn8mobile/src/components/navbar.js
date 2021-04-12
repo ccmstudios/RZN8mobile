@@ -12,7 +12,7 @@ class Navbar extends React.Component{
                      </Link>         
                 <Link to= '/books'>
                 <li>Books</li>
-                     </Link>         
+                     </Link>        
                 <Link to= '/comicbooks'>
                 <li>Comic Books</li>
                      </Link>         

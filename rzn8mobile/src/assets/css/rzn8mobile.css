@@ -1,12 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
 /* Navabar */
 
 #navbarlogo{
-    width: 120px;
+    width: 100px;
     height: auto;
+    position: relative;
+    bottom: 9px;
 }
 
 #navbar{
     display: flex;
     justify-content: space-around;
     list-style: none;
+    background-color: black;
+    padding: 5px;
+
+}
+
+#navbar li{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+}
+
+#navbar li:hover{
+    color:#4b0082;
 }
