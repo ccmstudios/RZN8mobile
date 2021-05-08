@@ -27,3 +27,59 @@
 #navbar li:hover{
     color:#4b0082;
 }
+
+/* Navbar end */
+
+
+/* Content Component */
+
+#contentcontainer{
+    width: 200px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+#contentcontainer img{
+    width: 200px;
+}
+
+
+
+
+/* Content component end */
+
+.player-wrapper{
+    display: flex;
+    justify-content: center;
+
+}
+
+/* audiobooks */
+
+#audiobooks{
+    display: flex;
+}
+
+/* audiobooks end */
+
+/* books */
+#books{
+    display: flex;
+}
+
+/* books end */
+
+/* comicbooks */
+
+#comicbooks{
+    display: flex;
+}
+
+/* comic books end */
+
+/* merchadise */
+#merchandise{
+    display: flex;
+}
+/* merchandise end */
