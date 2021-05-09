@@ -83,3 +83,20 @@
     display: flex;
 }
 /* merchandise end */
+
+/* Home  */
+
+.loginBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+}

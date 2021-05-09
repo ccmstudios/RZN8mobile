@@ -1,8 +1,11 @@
 import React from "react";
 import ReactPlayer from "react-player";
+import GoogleLogin from "react-google-login";
 
-class Home extends React.Component {
-  render() {
+const Home =() => {
+    const login = (response) => {
+      console.log(response);
+    };
     return (
       <div>
         <h1>This is Home</h1>
@@ -21,6 +24,22 @@ class Home extends React.Component {
           tellus mattis non. Ut lacinia arcu ut nibh feugiat, sit amet feugiat
           neque cursus. Cras malesuada massa ut dictum hendrerit.
         </p>
+        <GoogleLogin
+          clientId="887759217582-03uaa928fh3mdn3c17brugda4j70pdq8.apps.googleusercontent.com"
+          render={(renderProps) => (
+            <button
+              onClick={renderProps.onClick}
+              disabled={renderProps.disabled}
+              className="loginBtn"
+            >
+              Login With Google
+            </button>
+          )}
+          onSuccess={login}
+          onFailure={login}
+          isSignedIn={true}
+          cookiePolicy={"single_host_origin"}
+        />
         <div className="player-wrapper">
           <ReactPlayer
             className="react-player"
@@ -33,6 +52,5 @@ class Home extends React.Component {
       </div>
     );
   }
-}
 
 export default Home;

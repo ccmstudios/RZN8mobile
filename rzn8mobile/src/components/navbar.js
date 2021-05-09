@@ -8,7 +8,7 @@ class Navbar extends React.Component{
             <nav>
                 <ul id = 'navbar'>
                 <Link to= '/'>
-                <li id = 'navbarlogo'><img src ={RZN8} id = 'navbarlogo'/></li>
+                <li id = 'navbarlogo'><img src ={RZN8} alt='RZN8 Logo' id = 'navbarlogo'/></li>
                      </Link>         
                 <Link to= '/books'>
                 <li>Books</li>
